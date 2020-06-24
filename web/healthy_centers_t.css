@@ -1,0 +1,36 @@
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+    text-align: center;
+    word-wrap:break-word;
+    
+
+}
+table.table td a.edit {
+    color:forestgreen;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+
+tbody {
+    display:block;
+    height:340px;
+    overflow:auto;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+}
+thead {
+    width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */
+}
+table {
+    width:400px;
+    
+}
+
+#label_style{
+    text-align: right;
+    display: block;
+}
